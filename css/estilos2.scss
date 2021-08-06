@@ -1,6 +1,18 @@
 @mixin maxsizes($mwidth, $mheight) {
                 max-height: $mheight;
                 max-width: $mwidth;}
+
+//VARIABLES COLORES GRADIANTES
+
+$gradiante-negro: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.4));
+$gradiante-anaranjado: linear-gradient(to bottom, rgba(255, 166, 0, 0.7) , rgba(255, 255, 0, 0.1));
+
+$form-focus-color: orangered;  
+$form-focus-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 166, 0);
+
+
+//---------------------
+
      
 //footer
 .footer{text-align: center;
@@ -14,21 +26,12 @@ footer a:hover{color: orangered;}
 
 .footer__image--size{@include maxsizes(30px, 30px);}
 
-.footer__background {background-image: url("img/footertemp.jpg");
+.footer__background {background-image:$gradiante-anaranjado; //url("img/footertemp.jpg");
+                        
                     background-size: cover;
                     background-repeat: no-repeat;}
 //FIN FOOTER 
 
-//VARIABLES COLORES GRADIANTES
-
-$gradiante-negro: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.4));
-$gradiante-anaranjado: linear-gradient(to bottom, rgba(255, 166, 0, 0.7) , rgba(255, 255, 0, 0.1));
-
-$form-focus-color: orangered;  
-$form-focus-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 166, 0);
-
-
-//------------------------
 
 
 
