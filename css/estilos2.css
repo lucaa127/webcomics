@@ -18,6 +18,11 @@ footer a:hover {
   max-width: 30px;
 }
 
+.footer__logo--size {
+  max-height: 90px;
+  max-width: 170px;
+}
+
 .footer__background {
   background-image: url(../img/footertemp.jpg);
   background-size: cover;

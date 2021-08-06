@@ -25,6 +25,7 @@ footer a{color: black;
 footer a:hover{color: orangered;}  
 
 .footer__image--size{@include maxsizes(30px, 30px);}
+.footer__logo--size{@include maxsizes(170px, 90px);}
 
 .footer__background {background-image: url(../img/footertemp.jpg);
                         
