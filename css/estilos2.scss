@@ -26,7 +26,7 @@ footer a:hover{color: orangered;}
 
 .footer__image--size{@include maxsizes(30px, 30px);}
 
-.footer__background {background-image:$gradiante-anaranjado; //url("img/footertemp.jpg");
+.footer__background {background-image: url(../img/footertemp.jpg);
                         
                     background-size: cover;
                     background-repeat: no-repeat;}
