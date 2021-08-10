@@ -6,6 +6,7 @@
 
 $gradiante-negro: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.4));
 $gradiante-anaranjado: linear-gradient(to bottom, rgba(255, 166, 0, 0.7) , rgba(255, 255, 0, 0.1));
+$gradiante-amarillo: linear-gradient(to bottom, rgba(255, 166, 0, 0.3) , rgba(255, 255, 0, 0.05));
 
 $form-focus-color: orangered;  
 $form-focus-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 166, 0);
@@ -38,7 +39,7 @@ footer a:hover{color: orangered;}
 
 //CAROUSEL SLIDE/CARDS HOVER
 
-.carousel__card {background-image: $gradiante-negro; //linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.4));
+.carousel__card {background-image: $gradiante-negro;
                 opacity: 0;
                         p{color:rgba(0, 0, 0, 0.0);}
                 }
@@ -93,6 +94,9 @@ footer a:hover{color: orangered;}
 
 .nav__link--decoration a:hover{text-decoration: underline;}
 
+.nav-link:focus {color:orangered;}
+
+.dropdown-item:focus {background: $gradiante-amarillo; color:black;}
 
 //FORMULARIOS
 
@@ -105,6 +109,6 @@ footer a:hover{color: orangered;}
         
 
 
-.form__background--color{background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.3) , rgba(255, 255, 0, 0.05));
+.form__background--color{background-image: $gradiante-amarillo; 
                         font-weight:600;}
-.form__background--borde{border: solid black 1.5px; border-radius: 2% 2%;}
+.form__background--borde{border: solid salmon 1px; border-radius: 2% 2%;}
