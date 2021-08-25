@@ -83,6 +83,8 @@ footer a:hover{color: orangered;}
 
         .card__radio {border:solid 1px; border-radius: 50%;}                              
 
+        .pill__warning--color {color: black; font-weight: bold;}
+
 //FIN CAROUSEL/SLIDER HOVER CARDS..
 
 
@@ -108,7 +110,11 @@ footer a:hover{color: orangered;}
         }
         
 
+.form__control{height: auto;}
 
 .form__background--color{background-image: $gradiante-amarillo; 
                         font-weight:600;}
 .form__background--borde{border: solid salmon 1px; border-radius: 2% 2%;}
+
+.form__socialbtn {margin: 5px 0; width: 75%;}
+

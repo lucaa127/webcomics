@@ -4,27 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="WEBCOMICS, creadores de cómics, artistas, cómics en línea, cómics gratuitos, crea tu propio cómic." />
-    <meta name="description" content="Crea tu propia historia y súbela a WEBCOMICS. Crea tu cómic digital de manera gratuita." />
-    <title>Webcomics - creadores</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
-    
     <script src="js/bootstrap.min.js"></script>
+    <meta name="keywords" content="WEBCOMICS, contáctanos, creadores de cómics, artistas, cómics en línea, cómics gratuitos, crea tu propio cómic." />
+    <meta name="description" content="Haznos tu consulta, deja tu opinión sobre WEBCOMICS. Crea tu cómic digital de manera gratuita." />
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos2.css">
+    <title>WebComics - Regístrate</title>
 
-    <!-- <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/estilos2.css"> -->
-   
 </head>
 <body>
-    
-    
+
     <header>
 
         <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center nav__link--decoration">
@@ -44,7 +37,7 @@
                           <a class="nav-link" href="comics.html">Comics</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Creadores</a>
+                        <a class="nav-link" href="creadores.html">Creadores</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
@@ -54,7 +47,7 @@
                         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                             
                             <li><a class="dropdown-item" href="login.html">Ingresar</a></li>
-                            <li><a class="dropdown-item" href="registro.html">Registro</a></li>
+                            <li><a class="dropdown-item" href="#">Registro</a></li>
                             
                         </ul>
                     </li>
@@ -62,68 +55,94 @@
               </div>
           </div>
       </nav>
-      
-      </header>
-      
-      <nav class="nav nav__link--color">
-        <a class="nav-link" href="#">Género 1</a>
-        <a class="nav-link" href="#">Género 2</a>
-        <a class="nav-link" href="#">Género 3</a>
-        <a class="nav-link" href="#">Género 4</a>
-      </nav>
-    <br>
-<h5 class="p-3">Creadores de contenido destacados</h5><br>
+     </header> 
+
+<br>
+     <!-- FORMULARIO -->
+
+     <form action="#">
+    <section class="container-fluid p-0 m-0 row justify-content-center">
+        <br><br>
+        <div class="form__background--color col-12 col-sm-12 col-md-10 col-lg-8" align="center">
+            
+            <br><h5>Regístrate y accede a todo nuestro contenido:</h5><br>
+
+            
+            <div class="mb-3 col-12 col-sm-10 col-lg-10 row justify-content-center">
+              <label for="inputName" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Nombre</label>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                <input type="text" class="form-control" id="inputName" required>
+              </div>
+            </div>
+
+
+   <div class="col-12 col-sm-10 col-lg-10 row justify-content-center">
+    <label for="inputEmail" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Correo</label>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+      <input type="email" class="form-control" id="inputEmail" required>
+    </div>
+  </div>
+
+         
+<br>
+
+          <div class="mb-3 col-12 col-sm-10 col-lg-10 row justify-content-center">
+            <label for="inputName" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Contraseña</label>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+              <input type="password" class="form-control" id="inputPass" required>
+            </div>
+          </div>
+
+ 
+         
+
+          <div class="mb-3 col-12 col-sm-10 col-lg-10 row justify-content-center">
+            <label for="inputName" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Repite tu contraseña</label>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+              <input type="password" class="form-control" id="inputPass" required>
+            </div>
+          </div>
+
+
+          
+          <div class="col-12 col-sm-10 col-lg-10 row justify-content-center">
+            <label for="inputSelect" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Eres?</label>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4">            
+            <select class="form-select" id="inputSelect">
+              
+              <option selected value="r">Lector</option>
+              <option value="c">Creador</option>
+              <option value="x">Ambos</option>
+            </select>
+          </div></div>
+          <br>
+
+
+
+            <br>
+               <div>
+                <input class="btn btn-warning" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Suscríbete para mas contenido.
+                </label>
+
+        
+              </div>
+            
+               <br><br>
+            
+            
+               <input type="submit" class="btn-warning p-1" value="Confirmar">
+               <input type="reset" class="btn-warning p-1" value="Borrar">
+            <br>
+        </form>
+        <br><br>
+        </div>
+      </section><br><br><br><br>
     
 
 
-<section class="container-fluid p-2 m-0 row justify-content-center">
-    <!-- row 1 -->
-       <div class="card card__radio bg-transparent p-0 text-white col-6 col-xs-12 col-sm-4 col-lg-3">
-        <a href="#"><img src="img/creador1.png" class="card-img card__radio" alt="Imagen creador 1">
-         <div class="card-img-overlay card__radio card__overlay p-3">
-
-           <p class="card-text text-center text-wrap"><strong>Creador 1</strong> </p>
-         </div></a>
-       </div>
- 
-     <!-- row 2 -->
- 
-     <div class="card card__radio bg-transparent p-0 text-white col-6 col-xs-6 col-sm-4 col-lg-3">
-       <a href="#">
-       <img src="img/creador2.png" class="card-img card__radio" alt="Imagen creador 2">
-       <div class="card-img-overlay card__radio card__overlay">
-
-         <p class="card-text text-center text-wrap"><strong>Creador 2</strong></p>
-       </div></a>
-     </div>
- 
-     <!-- row 3 -->
- 
-     <div class="card card__radio bg-transparent p-0 text-white col-6 col-xs-6 col-sm-4 col-lg-3">
-      <a href="#"><img src="img/sh.jpg" class="card-img card__radio" alt="Imagen creador 3">
-       <div class="card-img-overlay card__radio card__overlay">
-
-         <p class="card-text text-center text-wrap"><strong>Creador 3</strong></p>
-       </div></a>
-     </div>
- 
-
-
-     <hr class="mt-2">
-     <section class="container-fluid row justify-content-center">
-       <p class="col-12 col-xs-12 col-sm-4 col-lg-4"><strong>Sube tu propio comic</strong> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sit veniam magnam eveniet. Nesciunt similique quo vel dicta excepturi atque repellat, provident, libero quas, quod assumenda voluptate sunt quae numquam. Lorem ipsum dolor sit amet consectetur  elit. <br> <button type="button" class="btn btn-warning">Click para mas detalles</button></p>
-     
-    
-     <img class="p-3 image-fluid col-5 col-sm-5 col-md-5 col-lg-3" src="img/imgrandom1.jpg" alt="Imagen Webcomics">
-     <br>
-     <hr class="p-0 m-0">
-     
-     <p class="p-4 m-0 col-12 col-xs-12 col-sm-12 col-lg-12 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero ducimus possimus nobis temporibus, odio fugiat atque quod aliquam illum sit. Perspiciatis consequatur nam consequuntur, neque ullam voluptas? Deleniti, et. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dignissimos.</p>
-     </section>
-
-     
-   <br>
-</section>
+  
 <!-- FOOTER -->
 
 
@@ -169,6 +188,6 @@
   </section>
       
 </footer>
-    
+  
 </body>
 </html>

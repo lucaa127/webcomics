@@ -45,7 +45,7 @@
                         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                             
                             <li><a class="dropdown-item" href="login.html">Ingresar</a></li>
-                            <li><a class="dropdown-item" href="#">Registro</a></li>
+                            <li><a class="dropdown-item" href="registro.html">Registro</a></li>
                             
                         </ul>
                     </li>
@@ -55,7 +55,7 @@
       </nav>
      </header> 
 
-
+<br>
      <!-- FORMULARIO -->
 
      <form action="#">
@@ -63,13 +63,13 @@
         <br><br>
         <div class="form__background--color col-12 col-sm-12 col-md-10 col-lg-8" align="center">
             
-            <br><h5>CONTÁCTANOS</h5><br>
+            <br><h5>Contáctanos <img src="img/logo3_1.png" alt="WEBCOMICS" width="30" height="30" class="image-fluid">!</h5><br>
 
             
             <div class="mb-3 col-12 col-sm-10 col-lg-10 row justify-content-center">
               <label for="inputName" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Nombre</label>
               <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="inputName" required>
               </div>
             </div>
 
@@ -77,7 +77,7 @@
    <div class="col-12 col-sm-10 col-lg-10 row justify-content-center">
     <label for="inputEmail" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Correo</label>
     <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-      <input type="email" class="form-control" id="inputEmail">
+      <input type="email" class="form-control" id="inputEmail" required>
     </div>
   </div>
 
@@ -90,6 +90,7 @@
               
               <option selected value="r">Lector</option>
               <option value="c">Creador</option>
+              <option value="x">Ambos</option>
               
             </select>
           </div></div>
@@ -99,7 +100,7 @@
             <label for="inputComent" class="col-3 col-sm-2 col-md-2 col-lg-2 col-form-label">Comentario</label>
             
               <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                <textarea class="form-control" id="inputComent" rows="3"></textarea>
+                <textarea class="form-control" id="inputComent" rows="3" required></textarea>
               </div>
             </div>
 
